@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Delivery Oerdering System</h1>
+    <form method="post"
+form id=payment>
+	<fieldset>
+		<legend>Your details</legend>
+	 
+				<label for=name>Name</label>
+				<input id=name name=name type="text" name ="name">
+                                 
+			</br>
+                        <br>
+			
+				<label for=email>Email</label>
+				<input id=email name=email type="text" name = "email">
+			</br>
+			<br>
+				<label for=phone>Phone</label>
+				<input id=phone name=phone type="text" name ="phone">
+			</br>
+		
+	</fieldset>
+	<fieldset>
+		<legend>Delivery address</legend>
+	 <br>
+		
+				<label for=address>Address</label>
+				<textarea id=address name=address rows=5 required></textarea>
+			</br>
+			<br>
+				<label for=postcode>Post code</label>
+				<input id=postcode name=postcode type=text required>
+			</br>
+			<br>
+				<label for=country>Country</label>
+				<input id=country name=country type=text required>
+			</br>
+		
+	</fieldset>
+	<fieldset>
+		<legend>Card details</legend>
+		<br>		
+			
+		<fieldset>
+		<legend>Card type</legend>
+				
+						<br>
+							<input id=visa name=cardtype type=radio>
+							<label for=visa>VISA</label>
+						</br>
+						<br>
+							<input id=amex name=cardtype type=radio>
+							<label for=amex>AmEx</label>
+						</br>
+						<br>
+							<input id=mastercard name=cardtype type=radio>
+							<label for=mastercard>Mastercard</label>
+						</br>
+					
+				</fieldset>
+			</br>
+			<br>
+				<label for=cardnumber>Card number</label>
+				<input id=cardnumber name=cardnumber type=number required>
+			</br>
+			<br>
+				<label for=secure>Security code</label>
+				<input id=secure name=secure type=number required>
+			</br>
+			<br>
+				<label for=namecard>Name on card</label>
+				<input id=namecard name=namecard type="text" name ="namecard">
+			</br>
+		</br>
+	</fieldset>
+	<fieldset>
+		<button type=submit>Buy it!</button>
+	</fieldset>
+</form>
